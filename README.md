@@ -1,0 +1,1 @@
+# yolo8_example_addclass_to_coco
