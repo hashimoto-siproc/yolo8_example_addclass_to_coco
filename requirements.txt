@@ -1,0 +1,8 @@
+matplotlib
+numpy
+Pillow
+tqdm
+clearml
+torch
+torchvision
+ultralytics
