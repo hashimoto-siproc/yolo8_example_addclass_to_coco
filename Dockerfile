@@ -6,6 +6,7 @@ RUN apt-get install -y libcudnn8-dev=8.2.1.32-1+cuda11.3 libcudnn8=8.2.1.32-1+cu
 RUN apt-get install -y python3-pip python-is-python3
 COPY requirements.txt ./
 RUN pip install -r ./requirements.txt
+
 RUN pip uninstall opencv-python -y
 RUN pip install -U attrs
 WORKDIR /root/work
